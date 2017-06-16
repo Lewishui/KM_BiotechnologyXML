@@ -331,6 +331,20 @@ namespace KM_BiotechnologyXML
             System.Diagnostics.Process.Start("系统使用说明.xls", ZFCEPath);
         }
 
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            this.Visible = true;
+            this.WindowState = FormWindowState.Normal;
+        }
+
+        private void MainForm_Deactivate(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                this.Visible = false;
+            }
+        }
+
 
     }
 }

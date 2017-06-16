@@ -1,0 +1,14 @@
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\bin\Release\clsKMBuiness.dll
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\bin\Release\clsKMBuiness.pdb
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\bin\Release\clsdatabaseinfo.dll
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\bin\Release\IrisSkin2.dll
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\bin\Release\log4net.dll
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\bin\Release\MongoDB.Bson.dll
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\bin\Release\MongoDB.Driver.dll
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\bin\Release\WeifenLuo.WinFormsUI.Docking.dll
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\bin\Release\clsdatabaseinfo.pdb
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\obj\Release\clsKMBuiness.csprojResolveAssemblyReference.cache
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\obj\Release\Interop.SHDocVw.dll
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\obj\Release\clsKMBuiness.csproj.ResolveComReference.cache
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\obj\Release\clsKMBuiness.dll
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsKMBuiness\obj\Release\clsKMBuiness.pdb
