@@ -1,0 +1,5 @@
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsdatabaseinfo\bin\Debug\clsdatabaseinfo.dll
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsdatabaseinfo\bin\Debug\clsdatabaseinfo.pdb
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsdatabaseinfo\obj\Debug\clsdatabaseinfo.dll
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsdatabaseinfo\obj\Debug\clsdatabaseinfo.pdb
+C:\mysteap\work_office\ProjectOut\xml_KM\KM_BiotechnologyXML\clsdatabaseinfo\obj\Debug\clsdatabaseinfo.csprojResolveAssemblyReference.cache
