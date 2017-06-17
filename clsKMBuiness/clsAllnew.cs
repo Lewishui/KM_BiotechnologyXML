@@ -128,7 +128,7 @@ namespace clsKMBuiness
             }
             catch (Exception ex)
             {
-                MessageBox.Show("" + ex);
+                MessageBox.Show("信息读取异常， 请检查网络或IP是否正确配置" + ex);
                 return null;
 
                 throw ex;

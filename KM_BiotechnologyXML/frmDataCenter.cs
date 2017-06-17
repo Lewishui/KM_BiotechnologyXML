@@ -33,10 +33,11 @@ namespace KM_BiotechnologyXML
             InitialSystemInfo();
 
             ProcessLogger.Fatal("07932:System Login Start " + DateTime.Now.ToString());
-             
+
             clsAllnew BusinessHelp = new clsAllnew();
 
             List<xmlDataSources> StatusResults = BusinessHelp.findALLStatus_Server();
+            ProcessLogger.Fatal("07935:System Login successful mapping data Start " + DateTime.Now.ToString());
 
             var nations = StatusResults.Select(o => new MockEntity { ShortName = o.Rack_ID, FullName = o.Rack_ID }).ToList();
             nations.Insert(0, new MockEntity { ShortName = "", FullName = "所有" });
@@ -82,7 +83,7 @@ namespace KM_BiotechnologyXML
             this.dataGridView1.AutoGenerateColumns = false;
             sortablePendingOrderList = new SortableBindingList<xmlDataSources>(q.ToList());
             this.bindingSource1.DataSource = sortablePendingOrderList;
-          //  this.dataGridView1.DataSource = null;
+            //  this.dataGridView1.DataSource = null;
             //  this.bindingSource1.Sort = "Rack_ID  ASC";
             this.dataGridView1.DataSource = this.bindingSource1;
 
@@ -265,7 +266,13 @@ namespace KM_BiotechnologyXML
                 }
             }
             if (FilterOrderResults.Count > 0)
+            {
                 xmldown(FilterOrderResults);
+                MessageBox.Show("下载完成,请查看", "下载", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            else
+                MessageBox.Show("您还未选中数据", "下载", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             // NewMethod();
 
@@ -285,6 +292,8 @@ namespace KM_BiotechnologyXML
             //Retrieve-20170512-114950.order
             FolderBrowserDialog dialog = new FolderBrowserDialog();
             dialog.Description = "请选择文件路径";
+            file = "";
+
             if (dialog.ShowDialog() == DialogResult.OK)
             {
                 file = dialog.SelectedPath;
@@ -311,7 +320,10 @@ namespace KM_BiotechnologyXML
             {
                 strExcelFileName = sfdDownFile.FileName + ".xlsx";
             }
-
+            if (file == "")
+            {
+                return;
+            }
             #endregion
             foreach (xmlDataSources item in FilterOrderResults)
             {
@@ -347,7 +359,7 @@ namespace KM_BiotechnologyXML
                 XmlElement ele2 = (XmlElement)xn;
 
                 ele2.SetAttribute("OrderId", item.OrderName);
-                string filenamesave = file + "\\" + item.OrderName + ".order.xml";
+                string filenamesave = file + "\\" + item.OrderName + "-" + item.Tube_ID + ".order.xml";
 
                 xmlDoc.Save(filenamesave);//设置一个保存路径 
             }
