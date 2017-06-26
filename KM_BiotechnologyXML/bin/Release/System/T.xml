@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Order xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrderId="Retrieve-20170512-114950" Comment="" Email="" OrderedBy="">
+  <Arrayer xsi:type="FixedRetrieve">
+    <Racks>
+      <Rack>
+        <Holes>
+          <Hole ID="A1">
+            <Tube ID="64655" />
+          </Hole>
+        </Holes>
+      </Rack>
+    </Racks>
+  </Arrayer>
+</Order>

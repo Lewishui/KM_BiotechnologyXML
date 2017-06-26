@@ -29,25 +29,25 @@ namespace KM_BiotechnologyXML
             InitialSystemInfo();
             aboutbox = new frmAboutBox();
             #region Noway
-            DateTime oldDate = DateTime.Now;
-            DateTime dt3;
-            string endday = DateTime.Now.ToString("yyyy/MM/dd");
-            dt3 = Convert.ToDateTime(endday);
-            DateTime dt2;
-            dt2 = Convert.ToDateTime("2017/06/18");
+            //DateTime oldDate = DateTime.Now;
+            //DateTime dt3;
+            //string endday = DateTime.Now.ToString("yyyy/MM/dd");
+            //dt3 = Convert.ToDateTime(endday);
+            //DateTime dt2;
+            //dt2 = Convert.ToDateTime("2017/06/18");
 
-            TimeSpan ts = dt2 - dt3;
-            int timeTotal = ts.Days;
-            if (timeTotal < 0)
-            {
-                MessageBox.Show("Please Contact your administrator !");
-                toolStripDropDownButton2.Enabled = false;
-                toolStripDropDownButton1.Enabled = false;
+            //TimeSpan ts = dt2 - dt3;
+            //int timeTotal = ts.Days;
+            //if (timeTotal < 0)
+            //{
+            //    MessageBox.Show("Please Contact your administrator !");
+            //    toolStripDropDownButton2.Enabled = false;
+            //    toolStripDropDownButton1.Enabled = false;
 
-                this.Close();
+            //    this.Close();
 
-                return;
-            }
+            //    return;
+            //}
             #endregion
 
         }
